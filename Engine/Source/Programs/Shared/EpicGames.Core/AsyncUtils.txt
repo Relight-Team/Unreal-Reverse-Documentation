@@ -1,0 +1,24 @@
+This file doesn't import any engine code
+
+
+Class A is the main class
+
+
+
+The following are functions in Class A:
+
+- A function that converts cancelled token to write token
+
+- A function that waits for complete task and ignore exceptions related to cancellation
+
+- A function that outputs a task when the cancelled token is activated
+
+- A function that attempts to get result of task
+
+- A function that waits or cancel token, without printing exception
+
+- A function that deletes all task items in a list, and allows each to throw exception if required
+
+- A function that starts next prefetch in async enum while the current is doing precesses
+
+- A function that waits for a wait handle to send a signal

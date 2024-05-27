@@ -1,0 +1,16 @@
+this file doesn't import any engine code
+
+
+Class A is the main class
+
+
+The following are values in Class A:
+
+- value that is structure type
+
+
+The following are functions in Class A:
+
+- A default function that sets value
+
+- A function that converts value to string

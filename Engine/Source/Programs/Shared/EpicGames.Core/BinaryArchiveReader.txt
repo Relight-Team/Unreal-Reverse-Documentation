@@ -1,0 +1,83 @@
+this file doesn't import any engine code
+
+
+Class A is the main class
+
+
+The following are values in Class A:
+
+- Stream
+
+- Buffer
+
+- position of buffer
+
+- list of objects
+
+
+
+The following are functions in Class A:
+
+- A default function that sets buffer and stream
+
+- A function that dispose the stream
+
+- A function that reads the boolean from the stream
+
+- A function that reads 1 byte from stream
+
+- A function that reads 1 signed byte from stream
+
+- A function that reads 1 short from stream
+
+- A function that reads 1 unsigned short from stream
+
+- A function that reads 1 int from stream
+
+- A function that reads 1 unsigned int from stream
+
+- A function that reads 1 long from stream
+
+- A function that reads 1 unsigned long from stream
+
+- A function that reads 1 double from stream
+
+- A function that reads 1 string from stream
+
+- A function that reads 1 array of bytes from stream
+
+- A function that reads 1 array of shorts from stream
+
+- A function that reads 1 array of ints from stream
+
+- A function that reads 1 array of primitive types from stream
+
+- A function that reads 1 array of bytes from stream in fixed length
+
+- A function that reads 1 array of shorts from stream in fixed length
+
+- A function that reads 1 array of ints from stream in fixed length
+
+- A function that reads 1 array of primitive types from stream in fixed length
+
+- A function that reads a bulk of data from stream into the gived buffer
+
+- A function that reads an array of items
+
+- A function that reads a list of items
+
+- A function that reads a hashset of items
+
+- A function that reads a shortset of items
+
+- A function that reads a dictionary of items
+
+- A function that reads nullable objects
+
+- A function that reads any optional objects
+
+- A function that reads a reference of object
+
+- A function that detects if any deserialize objects are the opposite of null
+
+- A function that detects if any deserialize objects are the opposite of null in structure

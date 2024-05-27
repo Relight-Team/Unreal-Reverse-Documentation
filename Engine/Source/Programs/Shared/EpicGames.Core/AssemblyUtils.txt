@@ -1,0 +1,26 @@
+this file doesn't import any engine code
+
+
+
+Class A is the main class
+
+
+
+The following are variables in Class A:
+
+- exe version
+
+- should add resolver?
+
+
+The following are functions in Class A:
+
+- A function that get's the original location
+
+- A function that installs the resolver for assembly, mostly get any shared assemblies
+
+- A function that does the above but recersive
+
+- A function that refreshes the cache for assembly
+
+- A function that adds the file to the assembly cache

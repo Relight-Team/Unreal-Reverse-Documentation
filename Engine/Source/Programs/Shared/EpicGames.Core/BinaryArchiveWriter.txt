@@ -1,0 +1,100 @@
+this file doesn't import any engine code
+
+
+Class A is the main class
+
+Class B is inside Class A and handles comparing references
+
+
+The following are values in Class A:
+
+- Class B
+
+- stream
+
+- buffer
+
+- buffer position
+
+- dictionary
+
+
+
+The following are functions in Class A:
+
+- A default function that sets the values
+
+- A function that dispose the stream
+
+- A function that writes data on disk
+
+- A function that checks there is a min amount of space for buffer
+
+- A function that writes a boolean
+
+- A function that writes a byte
+
+- A function that writes a signed byte
+
+- A function that writes a short
+
+- A function that writes a unsigned short
+
+- A function that writes an int
+
+- A function that writes an unsigned int
+
+- A function that writes a long
+
+- A function that writes an unsigned long
+
+- A function that writes a double
+
+- A function that writes a string
+
+- A function that writes an array of bytes
+
+- A function that writes an array of shorts
+
+- A function that writes an array of ints
+
+- A function that writes an array of primitives
+
+- A function that writes an byte in a fix length
+
+- A function that writes a short in a fix length
+
+- A function that writes an int in a fix length
+
+- A function that writes an primitive array in a fix length
+
+- A function that writes a bulk of primitive data from given array
+
+- A function that writes an array of items
+
+- A function that writes a list of items
+
+- A function that writes a hash set
+
+- A function that writes a sorted set
+
+- A function that writes a dictionary
+
+- A function that writes a nullable object
+
+- A function that writes optional object
+
+- A function that writes object reference
+
+- A function that writes null object reference
+
+- A function that writes object refernece with an unique ID
+
+
+
+The following are functions in Class B:
+
+- A function that returns if object A and object B are the same
+
+- A function that get's hashcode
+

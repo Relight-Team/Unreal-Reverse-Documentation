@@ -1,0 +1,53 @@
+this file doesn't import any engine code
+
+Class A is the main class and is like StringBuilder but for sequences of bytes
+
+Class B is a class of class A and handles the chunks
+
+
+The following are values in class A:
+
+- list of chunks
+
+- size of chunk
+
+- chunk
+
+- length
+
+
+The following are values in class B:
+
+- index
+
+- data bytes
+
+- length
+
+- lambda operator for data span
+
+- lambda operator for data memory
+
+
+
+
+
+The following are functions in Class A:
+
+- A default function that sets a value to new chunk, add it to the list of existing chunks, and set the chunk size to input
+
+- A function that wipes the entirety of the current builder, setting all values to default
+
+- A function that returns the span of memory
+
+- A function that returns the chunk data memory
+
+- A function that adds current chunk length and value length to input IF length did not go over size of data written into output
+
+- A function that appends builder and adds written memory of chunk
+
+- A function that returns the sequence of data of bytes that has been already written
+
+- A function that duplicates the data and gives it to the span of output
+
+- A function that converts the sequence to a byte array
