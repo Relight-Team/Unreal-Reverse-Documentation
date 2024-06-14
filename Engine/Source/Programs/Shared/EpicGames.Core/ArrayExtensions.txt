@@ -1,9 +1,0 @@
-this file doesn't import any engine code
-
-
-Class A is the main class
-
-
-The following are functions in Class A:
-
-- A function that convert all items in array to different type
