@@ -1,0 +1,29 @@
+This file handles the string class using ANSI C++ for linux
+
+
+this file includes CoreTypes, GenericPlatform/StandardPlatformString, and GenericPlatform/GenericWidePlatformString
+
+A public structure:
+
+    if char is 16-bit
+        then do GenericWidePlatformString
+    otherwise
+        StandardPlatformString
+
+    create a char template
+
+    a function that returns an integer 32-bit with an input of a char template
+
+        if it's not a string, return blank
+
+        set value to 0
+        while string is not greater than length
+            add 1 to value
+
+        return value
+
+
+
+define size T format for zu, zx, lld, llx, llu, d, x, u
+
+define ptrint format for size T format
