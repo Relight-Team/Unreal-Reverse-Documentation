@@ -1,3 +1,0 @@
-This file only does includes
-
-this includes HAL/Platform, UMemoryDefines, CoreMiscDefines, and CoreDefines
