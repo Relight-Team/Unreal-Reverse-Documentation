@@ -1,0 +1,16 @@
+---------------------------------------------------------
+| External data (configs, shaders)                      |  -  Compatibility: the most compatible layer of UE compatibility, only require minor change to convert the code to Relight
+|--------------------------------------------------------
+| Extenal code (plugins)                                |
+|--------------------------------------------------------
+| Engine API (Scripting, Engine API)                    |
+|--------------------------------------------------------
+| Engine Systems (Engine, Launch, UnrealGame)           |
+|--------------------------------------------------------
+| Internal Core System (Core, ApplicationCore, RHI, etc)|
+|--------------------------------------------------------
+| External programs (UnrealBuildTool, UnrealPak, etc)   |  -  Unique: Doesn't have to be compatible, just make sure it's good and does the action
+---------------------------------------------------------
+
+This layer system will be used for figuring out how much we can learn from UE to make our own engine. Keep in mind that even the most unique code should do the functionality of Unreal, and that even the more compatibility
+layers cannot be 100% compatible, due to copyright.
